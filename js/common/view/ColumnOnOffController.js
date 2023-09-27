@@ -1,4 +1,4 @@
-// Copyright 2014-2022, University of Colorado Boulder
+// Copyright 2014-2023, University of Colorado Boulder
 
 /**
  * A user interface control that is used to turn the columns on or off.
@@ -43,7 +43,7 @@ class ColumnOnOffController extends Node {
       tandem: columnSwitchTandem
     } );
 
-    // TODO: These options were misplaced, should they be deleted?
+    //TODO https://github.com/phetsims/balancing-act/issues/139 These options were misplaced, should they be deleted?
     // fill: 'rgb( 240, 240, 240 )',
     // cornerRadius: 5
     const panel = new Panel( columnSwitch );

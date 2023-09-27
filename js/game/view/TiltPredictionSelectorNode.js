@@ -1,4 +1,4 @@
-// Copyright 2014-2022, University of Colorado Boulder
+// Copyright 2014-2023, University of Colorado Boulder
 
 /**
  * A Scenery node that defines a user interface element which allows the user
@@ -27,7 +27,8 @@ class TiltPredictionSelectorNode extends Node {
 
     // Property that tracks the selected prediction.  Valid values are 'none',
     // 'tiltDownOnLeftSide', 'stayBalanced', and 'tiltDownOnRightSide'.
-    this.tiltPredictionProperty = new Property( 'none' ); // TODO: Enumeration
+    //TODO https://github.com/phetsims/balancing-act/issues/139 Enumeration
+    this.tiltPredictionProperty = new Property( 'none' );
 
     const panelContents = new HBox(
       {
